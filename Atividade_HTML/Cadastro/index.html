@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <meta name="description" content="Fazer cadastro para o TTwitter da EJCM">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="cadastro-div">
+        <h1 class="cadastro-text">Cadastro</h1>
+        <div class="all-inputs">
+            <div class="inside-cadastro">
+                <label for="nome" class="titulo-input">Nome</label>
+                <div class="input-box">
+                    <input type="text" placeholder="nome de usuário" class="descricao" name="nome" id="nome">
+                </div> 
+            </div>
+
+            <div class="inside-cadastro">
+                <label for="email"class="titulo-input">Email</label>
+                <div class="input-box">
+                    <input type="email" placeholder="example@email.com" class="descricao" name="email" id="email">
+                </div> 
+            </div>
+
+            <div class="inside-cadastro">
+                <label for="nascimento"class="titulo-input">Data de Nascimento</label>
+                <div class="input-box">
+                    <input type="text" placeholder="xx/xx/xxxx" class="descricao" name="data-de-nascimento" id="nascimento">
+                </div> 
+            </div>
+
+            <div class="inside-cadastro">
+                <label for="senha" class="titulo-input">Senha</label>
+                <div class="input-box">
+                    <input type="password" placeholder=" &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679; "class="descricao " name="senha" id="senha">
+                    <button class="button-for-image" onclick="trocar_visibilidade_senha('senha','ver_senha_aberto','esconder_senha_botao')">
+
+                        <img style="margin-right: 15px; display:block" src="Ver_senha.svg" alt="ver_senha" id="ver_senha_aberto">
+
+                        <img style="margin-right: 15px; display:none" src="Esconder_senha.png" alt="esconder_senha" id="esconder_senha_botao">
+
+
+                    </button>
+                </div> 
+            </div>
+
+            <div class="inside-cadastro">
+                <label for="confirmar-senha" class="titulo-input">Confirmar senha</label>
+                <div class="input-box">
+                    <input type="password" placeholder=" &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679;  &#9679; "class="descricao" name="confirmar-senha" id="confirmar-senha">
+                    <button class="button-for-image" onclick="trocar_visibilidade_senha('confirmar-senha','ver_confirmarsenha_aberto','esconder_confirmarsenha_botao')">
+
+                        <img style="margin-right: 15px; display:block" src="Ver_senha.svg" alt="ver_senha" id="ver_confirmarsenha_aberto">
+
+                        <img style="margin-right: 15px; display:none" src="Esconder_senha.png" alt="esconder_senha" id="esconder_confirmarsenha_botao">
+
+                    </button>
+                    
+                </div> 
+            </div>
+
+            <label for="termos-box" class="termos">
+                <input type="checkbox" name="termos" id="termos-box">
+                Li e estou de acordo com os <a href=" ">Termos</a> e <a href=""> Condições de uso. </a>
+            </label>
+            
+            <button class="cadastrar-button">Cadastrar</button>
+            <a href="" class="login-button">Fazer Login</a>
+
+        </div>
+    </div>
+    <img src="Logo TT.svg" id="img_cadastro" alt="TT_Logo">
+    <script src="script.js"></script>
+</body>
+</html>

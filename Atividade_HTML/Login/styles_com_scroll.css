@@ -1,0 +1,168 @@
+body{
+    background-color: #181B24;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter";
+    padding-top: 216px;
+    padding-right: 173px;
+    padding-bottom: 216px;
+    padding-left: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastro-text{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 108px;
+    height: 29px;
+    opacity: 1;
+    margin-top: 50px;       
+
+}
+
+.cadastro-div{
+    font-family: "Inter";
+    background-color: white;
+    width: 547px;
+    height: 591px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.all-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 400px;
+    max-height: 571px
+}
+
+.inside-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.titulo-input{
+    font-family: "Inter";
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 3px;
+    position: relative;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: white;
+    top: 5px;
+    left: 18.5px;
+}
+
+.descricao{
+    font-family: "Inter";
+    padding: 13px 15px 13px 15px;
+    font-family: Inter;
+    font-weight: 400;
+    width: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #46494C80;
+    outline: none;
+    border: none;
+
+}
+
+.input-box{
+    font-family: "Inter";
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 57.5px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#img_cadastro{
+
+    width: 293px;
+    height: 304px;
+
+}
+
+.recovery-password{
+    width: 100%;
+    text-align: end;
+    font-family: "Inter";
+    color: #105F74;
+}
+
+.entrar-button{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #105F74;
+    width: 400px;
+    height: 49px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.registrar-button{
+    font-family: "Inter";
+    color: #105F74;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.termos{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 400px;
+}
+
+.button-for-image{
+    border: none; 
+    background: none; 
+    cursor: pointer; 
+    padding: 0;
+}
